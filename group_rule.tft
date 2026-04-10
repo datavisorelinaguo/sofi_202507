@@ -1,0 +1,2706 @@
+{
+  "clients": {
+    "1000": {
+      "modules": {
+        "1": {
+          "userStats": {
+            "groupRuleThrift": {
+              "defaultGroupRuleSet": {
+                "rulesMapInput": [
+                #   {
+                #     "featureName": "external_routing_number",
+                #     "actionType": 19,
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8,
+                #     "autoExcludeTopKeyThreshold": 0.2
+                #   },
+                  {
+                    "featureName": "has_2_receiver_name_count_per_receiver_email",
+                    "actionType": 8,
+                    "featureGroup": "has_2_receiver_name_count_per_receiver_email;receiver_name_count_per_receiver_email",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8            
+                  },
+                  {
+                    "featureName": "has_3_wire_trans_count_per_sender_1h",
+                    "actionType": 8,
+                    "featureGroup": "has_3_wire_trans_count_per_sender_1h;1h_wire_trans_count_per_sender",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8            
+                  },
+                  {
+                    "featureName": "1h_wire_trans_count_per_sender",
+                    "actionType": 9,
+                    "featureGroup": "has_3_wire_trans_count_per_sender_1h;1h_wire_trans_count_per_sender",
+                    "keywordsToMatch": [
+                      "0", "1","-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8            
+                  },
+                  {
+                    "featureName": "receiver_risk_group",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "kdt",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "ip",
+                    "actionType": 19,
+                    "featureGroup": "ip;ip_city;ip_province",
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.05
+                  },
+                  {
+                    "featureName": "linked_routing_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "receiver_email",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "account_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                #   {
+                #     "featureName": "high_check_user_count_per_payer_acct_num_7day",
+                #     "actionType": 8,
+                #     "featureGroup": "high_check_user_count_per_payer_acct_num_7day;check_user_count_per_payer_acct_num_7day",
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "is_debit",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "receiver_party_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "count_password_changed_last_1_day",
+                    "actionType": 9,
+                     "featureGroup": "count_password_changed_last_1_day;has_password_change_last_3_day;count_password_changed_last_1_day",
+                    "keywordsToMatch": [
+                      "0",
+                      "1", "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "check_num",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                #   {
+                #     "featureName": "has_high_1h_zelle_count_for_full_name_external",
+                #     "actionType": 8,
+                #     "featureGroup": "1h_zelle_trans_count_per_full_name_external;has_high_1h_zelle_count_for_full_name_external",
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "is_bin_socure_email_risk_score_ls_0p3",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "primary_email_addr_canonical",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "num_of_withdraw_per_external_acct_num_24h",
+                    "featureGroup": "has_4_withdraw_per_external_acct_num_24h;num_of_withdraw_per_external_acct_num_24h",
+                    "actionType": 9,
+                    "keywordsToMatch": [
+                      "0",
+                      "1",
+                      "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "user_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "deposit_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "transaction_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+                    "actionType": 8,
+                    "featureGroup": "has_3_number_of_senders_per_P2P_receiver_email_48h;number_of_senders_per_P2P_receiver_email_48h",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "employment_start_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "external_account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.05
+                  },
+                  {
+                    "featureName": "has_3_ip_city_per_user_in_1h;has_3_ip_count_per_user_in_1h",
+                    "actionType": 8,
+                     "featureGroup": "has_3_ip_city_per_user_in_1h;ip_city_count_per_user_1h;ip_count_per_user_1h;has_3_ip_count_per_user_in_1h",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                #    {
+                #     "featureName": "ip_city_count_per_user_1h;ip_count_per_user_1h",
+                #     "actionType": 9,
+                #     "featureGroup": "has_3_ip_city_per_user_in_1h;ip_city_count_per_user_1h;ip_count_per_user_1h;has_3_ip_count_per_user_in_1h",
+                #     "keywordsToMatch": [
+                #       "0","1","-1"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "ip_count_per_user_1h",
+                    "actionType": 9,
+                    "featureGroup": "has_3_ip_city_per_user_in_1h;ip_city_count_per_user_1h;ip_count_per_user_1h;has_3_ip_count_per_user_in_1h",
+                    "keywordsToMatch": [
+                      "0","1","-1"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "ACH_count_in_24h_per_user",
+                    "actionType": 9,
+                    "featureGroup": "ACH_count_in_24h_per_user;has_4_ACH_count_in_24h_per_user",
+                    "keywordsToMatch": [
+                      "0",
+                      "1","-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                #   {
+                #     "featureName": "ip_province",
+                #     "actionType": 19,
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6,
+                #     "autoExcludeTopKeyThreshold": 0.1
+                #   },
+                  {
+                    "featureName": "receiver_name_count_per_receiver_email",
+                    "actionType": 9,
+                    "featureGroup": "has_2_receiver_name_count_per_receiver_email;receiver_name_count_per_receiver_email",
+                    "keywordsToMatch": [
+                      "0",
+                      "1",
+                      "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "has_4_withdraw_per_external_acct_num_24h",
+                    "actionType": 8,
+                    "featureGroup": "has_4_withdraw_per_external_acct_num_24h;num_of_withdraw_per_external_acct_num_24h",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "receiver_last_transfer_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "socure_sigma_score_v3",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "account_count_per_receiving_email",
+                    "actionType": 9,
+                    "featureGroup": "account_count_per_receiving_email;has_3_account_count_per_receiving_email",
+                    "keywordsToMatch": [
+                      "0",
+                      "1",
+                      "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "socure_address_risk_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "receiver_customer_status",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "check_user_count_per_payer_acct_num_7day",
+                    "actionType": 9,
+                    "featureGroup": "check_user_count_per_payer_acct_num_7day;high_check_user_count_per_payer_acct_num_7day",
+                    "keywordsToMatch": [
+                      "0",
+                      "1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "has_password_change_last_3_day",
+                    "actionType": 8,
+                    "featureGroup": "has_password_change_last_3_day;count_password_changed_last_3_day",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "time_hour",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "status",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "FAILED_LOGIN_PASSWORD",
+                      "PASSWORD_BREACH",
+                      "FAILED_LOGIN"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "number_of_senders_per_P2P_receiver",
+                    "actionType": 9,
+                    "keywordsToMatch": [
+                      "0",
+                      "1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "new_two_factor_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "sofi_account_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "has_3_account_count_per_receiving_email",
+                    "actionType": 8,
+                    "featureGroup": "account_count_per_receiving_email;has_3_account_count_per_receiving_email",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "number_of_users_per_ACH_receiver_in_24h",
+                    "actionType": 9,
+                    "featureGroup": "number_of_users_per_ACH_receiver_in_24h;has_3_number_of_users_per_ACH_receiver_in_24h",
+                    "keywordsToMatch": [
+                      "0",
+                      "1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "has_5_trans_per_hour;has_3_trans_per_hour",
+                    "actionType": 8,
+                    "featureGroup": "has_5_trans_per_hour;transaction_count_per_hour;has_3_trans_per_hour",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "transaction_count_per_hour",
+                    "actionType": 9,
+                    "featureGroup": "has_5_trans_per_hour;transaction_count_per_hour;has_3_trans_per_hour",
+                    "keywordsToMatch": [
+                      "0", "1", "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                #   {
+                #     "featureName": "receiver_state",
+                #     "actionType": 19,
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8,
+                #     "autoExcludeTopKeyThreshold": 0.2
+                #   },
+                  {
+                    "featureName": "receiver_account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "socure_name_address_correlation_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "is_sender_remain_balance_after_p2p_low",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "primary_email_verified",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "is_ip_from_datacenter",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "is_ramdom_email_prefix",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "email",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "linked_account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "P2P_request_count_per_user_in_24h",
+                    "actionType": 19,
+                    "featureGroup": "P2P_request_count_per_user_in_24h;has_4_P2P_request_count_per_user_in_24h;has_5_P2P_request_count_per_user_in_24h",
+                    "keywordsToMatch": [
+                      "0",
+                      "1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "sender_account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "last_name",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "plaid_account_name",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "socure_name_phone_correlation_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "account_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                #   {
+                #     "featureName": "ip_city",
+                #     "actionType": 19,
+                #     "featureGroup": "ip;ip_city;ip_country",
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8,
+                #     "autoExcludeTopKeyThreshold": 0.2
+                #   },
+                #   {
+                #     "featureName": "has_3_trans_per_hour",
+                #     "actionType": 8,
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "routing_num",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "email_domain",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "current_sofi_employee",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "reference_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "has_3_number_of_users_per_ACH_receiver_in_24h",
+                    "actionType": 8,
+                    "featureGroup": "number_of_users_per_ACH_receiver_in_24h;has_3_number_of_users_per_ACH_receiver_in_24h",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "receiver_name_lowercase",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "external_routing_account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                #   {
+                #     "featureName": "has_TFA_changed_3_day",
+                #     "actionType": 8,
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "sender_name",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "years_of_experience",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "bin_10_socure_email_risk_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "third_party_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                #   {
+                #     "featureName": "has_failed_password_login_last_3_day",
+                #     "actionType": 8,
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.6,
+                #     "defaultShareThreshold": 0.6
+                #   },
+                  {
+                    "featureName": "socure_phone_risk_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "user_active",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "0"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "primary_acct_num",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "socure_email_risk_score",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "sender_country",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                #   {
+                #     "featureName": "1h_zelle_trans_count_per_full_name_external",
+                #     "actionType": 9,
+                #     "featureGroup": "1h_zelle_trans_count_per_full_name_external;has_high_1h_zelle_count_for_full_name_external",
+                #     "keywordsToMatch": [
+                #       "0",
+                #       "1",
+                #       "-1"
+                #     ],
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8
+                #   },
+                  {
+                    "featureName": "has_4_P2P_request_count_per_user_in_24h",
+                    "actionType": 9,
+                    "featureGroup": "P2P_request_count_per_user_in_24h;has_4_P2P_request_count_per_user_in_24h;has_5_P2P_request_count_per_user_in_24h",
+                    "keywordsToMatch": [
+                      "false"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "receiver_account_open_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "home_address_line2",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "receiver_routing_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "adjusted_amt",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "account_creation_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "linked_account_linking_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "primary_email_address",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "transfer_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "transaction_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "cadence",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "full_name_external",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "check_user_count_per_payer_acct_num_3day",
+                    "actionType": 9,
+                    "featureGroup": "check_user_count_per_payer_acct_num_3day;high_check_user_count_per_payer_acct_num_3day",
+                    "keywordsToMatch": [
+                      "0",
+                      "1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "high_check_user_count_per_payer_acct_num_3day",
+                    "actionType": 8,
+                    "featureGroup": "check_user_count_per_payer_acct_num_3day;high_check_user_count_per_payer_acct_num_3day",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "is_random_email_prefix",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "email_simplified_prefix",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "account_number",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "employment_type",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "email_count_gt_1",
+                    "actionType": 8,
+                    "featureGroup": "email_count_gt_1;email_count_per_user",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "secondary_party_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "receiver_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "ip_country",
+                    "actionType": 19,
+                    "keywordsToMatch": [
+                      "United States"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "time_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "receiver_email_count_per_receiver_name",
+                    "actionType": 9,
+                    "featureGroup": "receiver_email_count_per_receiver_name;has_high_receiver_email_count_per_receiver_name",
+                    "keywordsToMatch": [
+                      "0",
+                      "1",
+                      "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "email_prefix",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "attempt_ip",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "platform",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                  {
+                    "featureName": "partner_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "primary_routing_num",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "payer_acct_num",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "acct_txn_dt_tm",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "first_name",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "primary_party_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "mobile_phone_designation",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.1
+                  },
+                #   {
+                #     "featureName": "money_transfer_amount_round_to_1;money_transfer_amount_round_to_10",
+                #     "actionType": 19,
+                #     "featureGroup": "amount;money_transfer_amount_round_to_1;money_transfer_amount_round_to_10",
+                #     "keywordShareThreshold": 0.7,
+                #     "defaultShareThreshold": 0.7,
+                #     "autoExcludeTopKeyThreshold": 0.1
+                #   },
+                #   {
+                #     "featureName": "has_high_receiver_email_count_per_receiver_name",
+                #     "actionType": 8,
+                #     "featureGroup": "receiver_email_count_per_receiver_name;has_high_receiver_email_count_per_receiver_name",
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8
+                #   },
+                #   {
+                #     "featureName": "has_5_sender_per_receiving_email_48h",
+                #     "actionType": 8,
+                #     "keywordsToMatch": [
+                #       "true"
+                #     ],
+                #     "keywordShareThreshold": 0.8,
+                #     "defaultShareThreshold": 0.8
+                #   },
+                  {
+                    "featureName": "has_4_ACH_count_in_24h_per_user",
+                    "actionType": 8,
+                    "featureGroup": "ACH_count_in_24h_per_user;has_4_ACH_count_in_24h_per_user",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  },
+                  {
+                    "featureName": "deposit_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "number_of_senders_per_P2P_receiver_email_48h",
+                    "actionType": 9,
+                    "featureGroup": "has_3_number_of_senders_per_P2P_receiver_email_48h;number_of_senders_per_P2P_receiver_email_48h",
+                    "keywordsToMatch": [
+                      "0",
+                      "1", "-1"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "is_avail_balance_less_than_1",
+                    "actionType": 8,
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8
+                  },
+                  {
+                    "featureName": "account_open_date",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "linking_result_id",
+                    "actionType": 19,
+                    "keywordShareThreshold": 0.8,
+                    "defaultShareThreshold": 0.8,
+                    "autoExcludeTopKeyThreshold": 0.2
+                  },
+                  {
+                    "featureName": "has_5_P2P_request_count_per_user_in_24h",
+                    "actionType": 8,
+                    "featureGroup": "P2P_request_count_per_user_in_24h;has_4_P2P_request_count_per_user_in_24h;has_5_P2P_request_count_per_user_in_24h",
+                    "keywordsToMatch": [
+                      "true"
+                    ],
+                    "keywordShareThreshold": 0.6,
+                    "defaultShareThreshold": 0.6
+                  }
+                ],
+                "similarityThreshold": 2,
+                "strongSimilarityThreshold": 1,
+                "minGroupSizeThreshold": 3
+              },
+              "containsGroupRuleSets": {
+                "account_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "high_check_user_count_per_payer_acct_num_7day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "high_check_user_count_per_payer_acct_num_7day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_debit": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_debit",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_email": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_party_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_name_lowercase",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_state",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "sender_state",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "primary_email_verified",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_zip_code",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_party_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_party_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                     {
+                      "featureName": "receiver_state",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_zip_code",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "count_password_changed_last_1_day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "count_password_changed_last_1_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_password_change_last_3_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "count_password_changed_last_3_day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "check_num": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "check_num",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_high_1h_zelle_count_for_full_name_external": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "1h_zelle_trans_count_per_full_name_external",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "zelle_wire_count_in_24h_per_user",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_high_1h_zelle_count_for_full_name_external",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_bin_socure_email_risk_score_ls_0p3": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_bin_socure_email_risk_score_ls_0p3",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_email_addr_canonical": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_email_addr_canonical",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "num_of_withdraw_per_external_acct_num_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_4_withdraw_per_external_acct_num_24h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "num_of_withdraw_per_external_acct_num_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "user_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "user_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "linked_routing_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "external_bank_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "plaid_account_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_routing_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_institution_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_routing_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "platform",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "deposit_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "deposit_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "transaction_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "transaction_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_number_of_senders_per_P2P_receiver_email_48h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_state",
+                      "actionType": 1
+                    },
+                     {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "employment_start_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "employment_start_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "external_account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_zip_code",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_ip_city_per_user_in_1h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_ip_count_per_user_in_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_city_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_3_ip_city_per_user_in_1h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "ACH_count_in_24h_per_user": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ACH_count_in_24h_per_user",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "ip_province": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ip_province",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_name_count_per_receiver_email": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_name_count_per_receiver_email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_4_withdraw_per_external_acct_num_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_4_withdraw_per_external_acct_num_24h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "num_of_withdraw_per_external_acct_num_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_last_transfer_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_last_transfer_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_sigma_score_v3": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_sigma_score_v3",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "account_count_per_receiving_email": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_count_per_receiving_email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_address_risk_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_address_risk_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_customer_status": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_customer_status",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "check_user_count_per_payer_acct_num_7day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "check_user_count_per_payer_acct_num_7day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "transaction_count_per_hour": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "transaction_count_per_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "kdt": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "kdt",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_password_change_last_3_day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "count_password_changed_last_1_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_password_change_last_3_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "count_password_changed_last_3_day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "time_hour": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "time_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "status": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "status",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "number_of_senders_per_P2P_receiver": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "new_two_factor_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "new_two_factor_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "sofi_account_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "sofi_account_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_account_count_per_receiving_email": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_account_count_per_receiving_email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "number_of_users_per_ACH_receiver_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "number_of_users_per_ACH_receiver_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "external_routing_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "external_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_5_trans_per_hour": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_5_trans_per_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_state": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_state",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_name_lowercase",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_zip_code",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_name_address_correlation_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_name_address_correlation_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_sender_remain_balance_after_p2p_low": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_sender_remain_balance_after_p2p_low",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_sender_remain_balance_after_p2p_low;P2P_request_count_per_user_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_sender_remain_balance_after_p2p_low",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "transaction_count_per_hour",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_3_trans_per_hour",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_5_P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_4_P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_email_verified": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_email_verified",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_ip_from_datacenter": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_ip_from_datacenter",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_ramdom_email_prefix": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_ramdom_email_prefix",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "email": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "linked_account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "external_bank_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "plaid_account_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_routing_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_institution_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "linked_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "P2P_request_count_per_user_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "sender_account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "sender_account_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "last_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "last_name",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "plaid_account_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "plaid_account_name",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_name_phone_correlation_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_name_phone_correlation_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "account_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "ip_city": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ip_city",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_trans_per_hour": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_trans_per_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "routing_num": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "payer_acct_num",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "email_domain": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "email_domain",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "current_sofi_employee": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "current_sofi_employee",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "reference_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "reference_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_number_of_users_per_ACH_receiver_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_number_of_users_per_ACH_receiver_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_name_lowercase": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_high_receiver_email_count_per_receiver_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_party_id",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_name_lowercase",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email_count_per_receiver_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_phone_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_state",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_1",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_zip_code",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "external_routing_account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "external_routing_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_TFA_changed_3_day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_TFA_changed_3_day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "sender_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "sender_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_name_lowercase",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "years_of_experience": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "years_of_experience",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "bin_10_socure_email_risk_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "bin_10_socure_email_risk_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "third_party_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "third_party_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_failed_password_login_last_3_day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_failed_password_login_last_3_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "attempt_result",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "count_failed_password_login_last_1_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "count_failed_password_login_last_3_day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_phone_risk_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_phone_risk_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "user_active": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "user_active",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_acct_num": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_acct_num",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "socure_email_risk_score": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "socure_email_risk_score",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "sender_country": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "sender_country",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "1h_zelle_trans_count_per_full_name_external": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "1h_zelle_trans_count_per_full_name_external",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "zelle_wire_count_in_24h_per_user",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_high_1h_zelle_count_for_full_name_external",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_4_P2P_request_count_per_user_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_4_P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_account_open_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_account_open_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "home_address_line2": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "home_address_line2",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_routing_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_routing_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "adjusted_amt": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "adjusted_amt",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_10",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_log2_amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_1",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "account_creation_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_creation_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "account_open_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "linked_account_linking_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "linked_account_linking_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_email_address": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_email_address",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "transfer_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "transfer_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "transaction_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "transaction_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "cadence": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "cadence",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "full_name_external": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ip",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "full_name_external",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "transaction_count_per_hour",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "kdt",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "check_user_count_per_payer_acct_num_3day": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "check_user_count_per_payer_acct_num_3day",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "is_random_email_prefix": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "is_random_email_prefix",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "email_simplified_prefix": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "email_8_gram",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "email_simplified_prefix",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "account_number": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_number",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "employment_type": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "employment_type",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "email_count_gt_1": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "email_count_gt_1",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "email_count_per_user",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "secondary_party_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "secondary_party_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiver_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "ip_country": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ip_country",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "time_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "time_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiver_email_count_per_receiver_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_high_receiver_email_count_per_receiver_name",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_name_lowercase",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email_count_per_receiver_name",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "email_prefix": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "email_prefix",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "attempt_ip;ip": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "ip_province",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_failed_password_login_last_3_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_city",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_country",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "attempt_ip",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "platform",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "status",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_3_ip_count_per_user_in_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_3_trans_per_hour",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "is_ip_from_datacenter",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_password_change_last_3_day",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "time_hour",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "platform": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "platform",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_3_ip_count_per_user_in_1h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_ip_count_per_user_in_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "ip_city_count_per_user_1h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "has_3_ip_city_per_user_in_1h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "partner_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "partner_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_routing_num": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_routing_num",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "payer_acct_num": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "payer_acct_num",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "routing_num",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "acct_txn_dt_tm": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "acct_txn_dt_tm",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "first_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "first_name",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "primary_party_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "primary_party_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "mobile_phone_designation": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "mobile_phone_designation",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "amount": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "adjusted_amt",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_10",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_log2_amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_1",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_high_receiver_email_count_per_receiver_name": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_high_receiver_email_count_per_receiver_name",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "money_transfer_amount_round_to_10": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "adjusted_amt",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_10",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_log2_amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_1",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_5_sender_per_receiving_email_48h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_5_sender_per_receiving_email_48h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_4_ACH_count_in_24h_per_user": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_4_ACH_count_in_24h_per_user",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "deposit_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "deposit_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "number_of_senders_per_P2P_receiver_email_48h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "number_of_senders_per_P2P_receiver_email_48h",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "receiver_email",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "money_transfer_log2_amount": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "adjusted_amt",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_10",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_log2_amount",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "money_transfer_amount_round_to_1",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "account_open_date": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "account_creation_date",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "account_open_date",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "linking_result_id": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "linking_result_id",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "has_5_P2P_request_count_per_user_in_24h": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "has_5_P2P_request_count_per_user_in_24h",
+                      "actionType": 1
+                    }
+                  ]
+                },
+                "receiving_bank_aba": {
+                  "rulesMapInput": [
+                    {
+                      "featureName": "receiving_bank_aba",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_routing_account_number",
+                      "actionType": 1
+                    },
+                    {
+                      "featureName": "external_account_number",
+                      "actionType": 1
+                    }
+                  ]
+                }
+              },
+              "notContainsGroupRuleSets": {},
+              "equalsGroupRuleSets": {},
+              "notEqualsGroupRuleSets": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
