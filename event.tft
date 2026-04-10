@@ -1,0 +1,3987 @@
+{
+  "id": 0,
+  "clients": {
+    "1000": {
+      "eventConfig": {
+        "dfeSchemaEntries": [
+          {
+            "dfeName": "socure_name_email_correlation_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_name_email_correlation_score"
+            ]
+          },
+          {
+            "dfeName": "adjusted_amt",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "adjusted_amt"
+            ]
+          },
+          {
+            "dfeName": "email",
+            "dataType": "String",
+            "rawFieldNames": [
+              "email"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_city",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_city"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_line2",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_line2"
+            ]
+          },
+          {
+            "dfeName": "receiver_zip_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_zip_code"
+            ]
+          },
+          {
+            "dfeName": "last_updated_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "last_updated_date"
+            ]
+          },
+          {
+            "dfeName": "country_of_citizenship",
+            "dataType": "String",
+            "rawFieldNames": [
+              "country_of_citizenship"
+            ]
+          },
+          {
+            "dfeName": "deposit_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "deposit_id"
+            ]
+          },
+          {
+            "dfeName": "primary_acct_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_acct_num"
+            ]
+          },
+          {
+            "dfeName": "unstructured_addenda_info_raw",
+            "dataType": "String",
+            "rawFieldNames": [
+              "unstructured_addenda_info_raw"
+            ]
+          },
+          {
+            "dfeName": "receiver_email",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_email"
+            ]
+          },
+          {
+            "dfeName": "sender_address_city",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_city"
+            ]
+          },
+          {
+            "dfeName": "sender_available_balance",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "sender_available_balance"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_line1",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_line1"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_number",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "mobile_phone_number"
+            ]
+          },
+          {
+            "dfeName": "reference_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "reference_id"
+            ]
+          },
+          {
+            "dfeName": "receiver_phone_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_phone_number"
+            ]
+          },
+          {
+            "dfeName": "receiver_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_country"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_country_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_country_code"
+            ]
+          },
+          {
+            "dfeName": "primary_party_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_party_id"
+            ]
+          },
+          {
+            "dfeName": "deceased",
+            "dataType": "String",
+            "rawFieldNames": [
+              "deceased"
+            ]
+          },
+          {
+            "dfeName": "class",
+            "dataType": "String",
+            "rawFieldNames": [
+              "class"
+            ]
+          },
+          {
+            "dfeName": "sender_email_address",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_email_address"
+            ]
+          },
+          {
+            "dfeName": "home_address_state_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_state_code"
+            ]
+          },
+          {
+            "dfeName": "sender_address_line2",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_line2"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_postal_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_postal_code"
+            ]
+          },
+          {
+            "dfeName": "data_source",
+            "dataType": "String",
+            "rawFieldNames": [
+              "data_source"
+            ]
+          },
+          {
+            "dfeName": "work_phone_verified",
+            "dataType": "String",
+            "rawFieldNames": [
+              "work_phone_verified"
+            ]
+          },
+          {
+            "dfeName": "is_restriction_added",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "is_restriction_added"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_designation",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mobile_phone_designation"
+            ]
+          },
+          {
+            "dfeName": "receiver_last_transfer_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_last_transfer_date"
+            ]
+          },
+          {
+            "dfeName": "home_phone_verified_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_phone_verified_date"
+            ]
+          },
+          {
+            "dfeName": "linked_institution_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linked_institution_name"
+            ]
+          },
+          {
+            "dfeName": "citizenship",
+            "dataType": "String",
+            "rawFieldNames": [
+              "citizenship"
+            ]
+          },
+          {
+            "dfeName": "unstructured_addenda_info",
+            "dataType": "String",
+            "rawFieldNames": [
+              "unstructured_addenda_info"
+            ]
+          },
+          {
+            "dfeName": "ip",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ip"
+            ]
+          },
+          {
+            "dfeName": "date_of_full_availability",
+            "dataType": "String",
+            "rawFieldNames": [
+              "date_of_full_availability"
+            ]
+          },
+          {
+            "dfeName": "common_name_prefix",
+            "dataType": "String",
+            "rawFieldNames": [
+              "common_name_prefix"
+            ]
+          },
+          {
+            "dfeName": "originator_bank_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "originator_bank_country"
+            ]
+          },
+          {
+            "dfeName": "home_phone_number",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "home_phone_number"
+            ]
+          },
+          {
+            "dfeName": "home_address_state_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_state_name"
+            ]
+          },
+          {
+            "dfeName": "attempt_result",
+            "dataType": "String",
+            "rawFieldNames": [
+              "attempt_result"
+            ]
+          },
+          {
+            "dfeName": "socure_phone_risk_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_phone_risk_score"
+            ]
+          },
+          {
+            "dfeName": "resend_counter",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "resend_counter"
+            ]
+          },
+          {
+            "dfeName": "socure_name_phone_correlation_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_name_phone_correlation_score"
+            ]
+          },
+          {
+            "dfeName": "primary_email_addr_canonical",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_email_addr_canonical"
+            ]
+          },
+          {
+            "dfeName": "years_of_experience",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "years_of_experience"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_country"
+            ]
+          },
+          {
+            "dfeName": "receiver_customer_status",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_customer_status"
+            ]
+          },
+          {
+            "dfeName": "check_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "check_num"
+            ]
+          },
+          {
+            "dfeName": "fed_ack_time",
+            "dataType": "String",
+            "rawFieldNames": [
+              "fed_ack_time"
+            ]
+          },
+          {
+            "dfeName": "wire_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "wire_type"
+            ]
+          },
+          {
+            "dfeName": "created_by",
+            "dataType": "String",
+            "rawFieldNames": [
+              "created_by"
+            ]
+          },
+          {
+            "dfeName": "completed",
+            "dataType": "String",
+            "rawFieldNames": [
+              "completed"
+            ]
+          },
+          {
+            "dfeName": "sender_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_country"
+            ]
+          },
+          {
+            "dfeName": "receiving_acct_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiving_acct_num"
+            ]
+          },
+          {
+            "dfeName": "receiving_acct_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiving_acct_name"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_verified_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mobile_phone_verified_date"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_line1",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_line1"
+            ]
+          },
+          {
+            "dfeName": "sender_address_line1",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_line1"
+            ]
+          },
+          {
+            "dfeName": "common_first_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "common_first_name"
+            ]
+          },
+          {
+            "dfeName": "originator_bank_address",
+            "dataType": "String",
+            "rawFieldNames": [
+              "originator_bank_address"
+            ]
+          },
+          {
+            "dfeName": "payer_acct_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "payer_acct_num"
+            ]
+          },
+          {
+            "dfeName": "legal_first_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "legal_first_name"
+            ]
+          },
+          {
+            "dfeName": "type_sub_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "type_sub_type"
+            ]
+          },
+          {
+            "dfeName": "avail_balance",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "avail_balance"
+            ]
+          },
+          {
+            "dfeName": "receiver_party_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_party_id"
+            ]
+          },
+          {
+            "dfeName": "instructing_bank_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "instructing_bank_name"
+            ]
+          },
+          {
+            "dfeName": "socure_address_risk_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_address_risk_score"
+            ]
+          },
+          {
+            "dfeName": "transaction_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "transaction_date"
+            ]
+          },
+          {
+            "dfeName": "primary_email_address",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_email_address"
+            ]
+          },
+          {
+            "dfeName": "originator_bank_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "originator_bank_name"
+            ]
+          },
+          {
+            "dfeName": "ssn_tax_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ssn_tax_number"
+            ]
+          },
+          {
+            "dfeName": "external_bank_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "external_bank_name"
+            ]
+          },
+          {
+            "dfeName": "date_of_birth",
+            "dataType": "String",
+            "rawFieldNames": [
+              "date_of_birth"
+            ]
+          },
+          {
+            "dfeName": "user_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "user_type"
+            ]
+          },
+          {
+            "dfeName": "work_phone_area_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "work_phone_area_code"
+            ]
+          },
+          {
+            "dfeName": "receiver_customer_status_description",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_customer_status_description"
+            ]
+          },
+          {
+            "dfeName": "sender_acct_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_acct_num"
+            ]
+          },
+          {
+            "dfeName": "socure_name_address_correlation_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_name_address_correlation_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "restriction_flag",
+            "dataType": "String",
+            "rawFieldNames": [
+              "restriction_flag"
+            ]
+          },
+          {
+            "dfeName": "secondary_party_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "secondary_party_id"
+            ]
+          },
+          {
+            "dfeName": "employment_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "employment_type"
+            ]
+          },
+          {
+            "dfeName": "home_phone_designation",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_phone_designation"
+            ]
+          },
+          {
+            "dfeName": "home_address_line1",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_line1"
+            ]
+          },
+          {
+            "dfeName": "check_21_return_reason_cd",
+            "dataType": "String",
+            "rawFieldNames": [
+              "check_21_return_reason_cd"
+            ]
+          },
+          {
+            "dfeName": "sender_last_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_last_name"
+            ]
+          },
+          {
+            "dfeName": "do_plaid_and_account_phone_numbers_match",
+            "dataType": "String",
+            "rawFieldNames": [
+              "do_plaid_and_account_phone_numbers_match"
+            ]
+          },
+          {
+            "dfeName": "home_address_line2",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_line2"
+            ]
+          },
+          {
+            "dfeName": "socure_name_address_correlation_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_name_address_correlation_score"
+            ]
+          },
+          {
+            "dfeName": "sofi_employee",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "sofi_employee"
+            ]
+          },
+          {
+            "dfeName": "home_phone_sms_accepted_ind",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_phone_sms_accepted_ind"
+            ]
+          },
+          {
+            "dfeName": "work_phone_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "work_phone_number"
+            ]
+          },
+          {
+            "dfeName": "event_id_original",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_id_original"
+            ]
+          },
+          {
+            "dfeName": "primary_email_verified",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_email_verified"
+            ]
+          },
+          {
+            "dfeName": "employment_start_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "employment_start_date"
+            ]
+          },
+          {
+            "dfeName": "old_two_factor_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "old_two_factor_type"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_state_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_state_name"
+            ]
+          },
+          {
+            "dfeName": "linking_decision",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linking_decision"
+            ]
+          },
+          {
+            "dfeName": "legacy_fraud_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "legacy_fraud_type"
+            ]
+          },
+          {
+            "dfeName": "home_address_postal_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_postal_code"
+            ]
+          },
+          {
+            "dfeName": "originator_bank_swift",
+            "dataType": "String",
+            "rawFieldNames": [
+              "originator_bank_swift"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_verified",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "mobile_phone_verified"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_extension",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mobile_phone_extension"
+            ]
+          },
+          {
+            "dfeName": "amount",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "amount"
+            ]
+          },
+          {
+            "dfeName": "socure_email_risk_score",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_email_risk_score"
+            ]
+          },
+          {
+            "dfeName": "account_open_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "account_open_date"
+            ]
+          },
+          {
+            "dfeName": "sender_address_zip",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_zip"
+            ]
+          },
+          {
+            "dfeName": "account_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "account_type"
+            ]
+          },
+          {
+            "dfeName": "salary",
+            "dataType": "String",
+            "rawFieldNames": [
+              "salary"
+            ]
+          },
+          {
+            "dfeName": "hist_seq",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "hist_seq"
+            ]
+          },
+          {
+            "dfeName": "transaction_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "transaction_id"
+            ]
+          },
+          {
+            "dfeName": "local_instrument_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "local_instrument_code"
+            ]
+          },
+          {
+            "dfeName": "salary_currency",
+            "dataType": "String",
+            "rawFieldNames": [
+              "salary_currency"
+            ]
+          },
+          {
+            "dfeName": "receiver_routing_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_routing_number"
+            ]
+          },
+          {
+            "dfeName": "full_name_external",
+            "dataType": "String",
+            "rawFieldNames": [
+              "full_name_external"
+            ]
+          },
+          {
+            "dfeName": "socure_email_risk_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_email_risk_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "sender_ledger_balance",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "sender_ledger_balance"
+            ]
+          },
+          {
+            "dfeName": "sender_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_account_number"
+            ]
+          },
+          {
+            "dfeName": "currency",
+            "dataType": "String",
+            "rawFieldNames": [
+              "currency"
+            ]
+          },
+          {
+            "dfeName": "attempt_ip",
+            "dataType": "String",
+            "rawFieldNames": [
+              "attempt_ip"
+            ]
+          },
+          {
+            "dfeName": "plaid_account_balance",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "plaid_account_balance"
+            ]
+          },
+          {
+            "dfeName": "kdt",
+            "dataType": "String",
+            "rawFieldNames": [
+              "kdt"
+            ]
+          },
+          {
+            "dfeName": "rfb",
+            "dataType": "String",
+            "rawFieldNames": [
+              "rfb"
+            ]
+          },
+          {
+            "dfeName": "receiver_first_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_first_name"
+            ]
+          },
+          {
+            "dfeName": "customer_gender",
+            "dataType": "String",
+            "rawFieldNames": [
+              "customer_gender"
+            ]
+          },
+          {
+            "dfeName": "sender_first_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_first_name"
+            ]
+          },
+          {
+            "dfeName": "linked_routing_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linked_routing_number"
+            ]
+          },
+          {
+            "dfeName": "last_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "last_name"
+            ]
+          },
+          {
+            "dfeName": "platform",
+            "dataType": "String",
+            "rawFieldNames": [
+              "platform"
+            ]
+          },
+          {
+            "dfeName": "sender_state",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_state"
+            ]
+          },
+          {
+            "dfeName": "socure_name_phone_correlation_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_name_phone_correlation_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "ofac_ticket_action",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ofac_ticket_action"
+            ]
+          },
+          {
+            "dfeName": "sender_bank_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_bank_name"
+            ]
+          },
+          {
+            "dfeName": "external_routing_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "external_routing_number"
+            ]
+          },
+          {
+            "dfeName": "is_debit",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "is_debit"
+            ]
+          },
+          {
+            "dfeName": "is_restriction_removed",
+            "dataType": "String",
+            "rawFieldNames": [
+              "is_restriction_removed"
+            ]
+          },
+          {
+            "dfeName": "work_phone_verified_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "work_phone_verified_date"
+            ]
+          },
+          {
+            "dfeName": "created_for",
+            "dataType": "String",
+            "rawFieldNames": [
+              "created_for"
+            ]
+          },
+          {
+            "dfeName": "do_plaid_and_account_names_match",
+            "dataType": "String",
+            "rawFieldNames": [
+              "do_plaid_and_account_names_match"
+            ]
+          },
+          {
+            "dfeName": "linking_result_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linking_result_id"
+            ]
+          },
+          {
+            "dfeName": "receiver_account_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_account_id"
+            ]
+          },
+          {
+            "dfeName": "payment_time",
+            "dataType": "String",
+            "rawFieldNames": [
+              "payment_time"
+            ]
+          },
+          {
+            "dfeName": "account_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "account_id"
+            ]
+          },
+          {
+            "dfeName": "receiver_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_account_number"
+            ]
+          },
+          {
+            "dfeName": "home_address_country_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_country_code"
+            ]
+          },
+          {
+            "dfeName": "asset_movement_status",
+            "dataType": "String",
+            "rawFieldNames": [
+              "asset_movement_status"
+            ]
+          },
+          {
+            "dfeName": "sender_zip_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_zip_code"
+            ]
+          },
+          {
+            "dfeName": "external_ref_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "external_ref_number"
+            ]
+          },
+          {
+            "dfeName": "two_factor_data",
+            "dataType": "String",
+            "rawFieldNames": [
+              "two_factor_data"
+            ]
+          },
+          {
+            "dfeName": "note",
+            "dataType": "String",
+            "rawFieldNames": [
+              "note"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_city",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_city"
+            ]
+          },
+          {
+            "dfeName": "attempt_counter",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "attempt_counter"
+            ]
+          },
+          {
+            "dfeName": "legacy_fraud_status",
+            "dataType": "String",
+            "rawFieldNames": [
+              "legacy_fraud_status"
+            ]
+          },
+          {
+            "dfeName": "deposit_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "deposit_date"
+            ]
+          },
+          {
+            "dfeName": "third_party_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "third_party_id"
+            ]
+          },
+          {
+            "dfeName": "sender_address_state",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_state"
+            ]
+          },
+          {
+            "dfeName": "home_phone_area_code",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "home_phone_area_code"
+            ]
+          },
+          {
+            "dfeName": "old_two_factor_data",
+            "dataType": "Long",
+            "rawFieldNames": [
+              "old_two_factor_data"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_sms_accepted_ind",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mobile_phone_sms_accepted_ind"
+            ]
+          },
+          {
+            "dfeName": "event_subtype",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_subtype"
+            ]
+          },
+          {
+            "dfeName": "receiver_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_id"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_line2",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_line2"
+            ]
+          },
+          {
+            "dfeName": "withdrawal_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "withdrawal_date"
+            ]
+          },
+          {
+            "dfeName": "all_funds_availability_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "all_funds_availability_date"
+            ]
+          },
+          {
+            "dfeName": "sender_bank_aba",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_bank_aba"
+            ]
+          },
+          {
+            "dfeName": "new_two_factor_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "new_two_factor_type"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_country_prefix",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "mobile_phone_country_prefix"
+            ]
+          },
+          {
+            "dfeName": "job_title",
+            "dataType": "String",
+            "rawFieldNames": [
+              "job_title"
+            ]
+          },
+          {
+            "dfeName": "drivers_license_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "drivers_license_number"
+            ]
+          },
+          {
+            "dfeName": "sender_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_name"
+            ]
+          },
+          {
+            "dfeName": "wire_facilitator",
+            "dataType": "String",
+            "rawFieldNames": [
+              "wire_facilitator"
+            ]
+          },
+          {
+            "dfeName": "fee_movement_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "fee_movement_id"
+            ]
+          },
+          {
+            "dfeName": "status",
+            "dataType": "String",
+            "rawFieldNames": [
+              "status"
+            ]
+          },
+          {
+            "dfeName": "user_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "user_id"
+            ]
+          },
+          {
+            "dfeName": "transaction_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "transaction_type"
+            ]
+          },
+          {
+            "dfeName": "receiver_risk_group",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_risk_group"
+            ]
+          },
+          {
+            "dfeName": "restriction_action",
+            "dataType": "String",
+            "rawFieldNames": [
+              "restriction_action"
+            ]
+          },
+          {
+            "dfeName": "socure_phone_risk_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_phone_risk_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "employer_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "employer_name"
+            ]
+          },
+          {
+            "dfeName": "two_factor_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "two_factor_type"
+            ]
+          },
+          {
+            "dfeName": "common_middle_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "common_middle_name"
+            ]
+          },
+          {
+            "dfeName": "external_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "external_account_number"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_state",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_state"
+            ]
+          },
+          {
+            "dfeName": "socure_synthetic_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_synthetic_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "home_phone_country_prefix",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_phone_country_prefix"
+            ]
+          },
+          {
+            "dfeName": "acct_txn_dt_tm",
+            "dataType": "String",
+            "rawFieldNames": [
+              "acct_txn_dt_tm"
+            ]
+          },
+          {
+            "dfeName": "common_last_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "common_last_name"
+            ]
+          },
+          {
+            "dfeName": "receiver_account_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_account_type"
+            ]
+          },
+          {
+            "dfeName": "file_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "file_id"
+            ]
+          },
+          {
+            "dfeName": "tran_seq",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "tran_seq"
+            ]
+          },
+          {
+            "dfeName": "sender_address_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_address_country"
+            ]
+          },
+          {
+            "dfeName": "event_description",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_description"
+            ]
+          },
+          {
+            "dfeName": "user_active",
+            "dataType": "String",
+            "rawFieldNames": [
+              "user_active"
+            ]
+          },
+          {
+            "dfeName": "socure_fraud_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_fraud_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "fee_amount",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "fee_amount"
+            ]
+          },
+          {
+            "dfeName": "movement_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "movement_id"
+            ]
+          },
+          {
+            "dfeName": "home_address_city",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_city"
+            ]
+          },
+          {
+            "dfeName": "receiver_last_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_last_name"
+            ]
+          },
+          {
+            "dfeName": "comment",
+            "dataType": "String",
+            "rawFieldNames": [
+              "comment"
+            ]
+          },
+          {
+            "dfeName": "do_plaid_and_account_email_addresses_match",
+            "dataType": "String",
+            "rawFieldNames": [
+              "do_plaid_and_account_email_addresses_match"
+            ]
+          },
+          {
+            "dfeName": "fee_transaction_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "fee_transaction_id"
+            ]
+          },
+          {
+            "dfeName": "home_phone_verified",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "home_phone_verified"
+            ]
+          },
+          {
+            "dfeName": "business_unit",
+            "dataType": "String",
+            "rawFieldNames": [
+              "business_unit"
+            ]
+          },
+          {
+            "dfeName": "business_function_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "business_function_code"
+            ]
+          },
+          {
+            "dfeName": "dv_original_api_inf",
+            "dataType": "String",
+            "rawFieldNames": [
+              "dv_original_api_inf"
+            ]
+          },
+          {
+            "dfeName": "routing_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "routing_num"
+            ]
+          },
+          {
+            "dfeName": "event_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_type"
+            ]
+          },
+          {
+            "dfeName": "sender_acct_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_acct_name"
+            ]
+          },
+          {
+            "dfeName": "plaid_account_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "plaid_account_name"
+            ]
+          },
+          {
+            "dfeName": "account_creation_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "account_creation_date"
+            ]
+          },
+          {
+            "dfeName": "receiver_address_zip",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_address_zip"
+            ]
+          },
+          {
+            "dfeName": "receiver_partner_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_partner_id"
+            ]
+          },
+          {
+            "dfeName": "home_address_unit_no",
+            "dataType": "String",
+            "rawFieldNames": [
+              "home_address_unit_no"
+            ]
+          },
+          {
+            "dfeName": "event_time",
+            "externalTimeFormat": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_time"
+            ]
+          },
+          {
+            "dfeName": "sender_acct_addr",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_acct_addr"
+            ]
+          },
+          {
+            "dfeName": "previous_imad",
+            "dataType": "String",
+            "rawFieldNames": [
+              "previous_imad"
+            ]
+          },
+          {
+            "dfeName": "current_sofi_employee",
+            "dataType": "String",
+            "rawFieldNames": [
+              "current_sofi_employee"
+            ]
+          },
+          {
+            "dfeName": "profession",
+            "dataType": "String",
+            "rawFieldNames": [
+              "profession"
+            ]
+          },
+          {
+            "dfeName": "created_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "created_date"
+            ]
+          },
+          {
+            "dfeName": "new_two_factor_data",
+            "dataType": "String",
+            "rawFieldNames": [
+              "new_two_factor_data"
+            ]
+          },
+          {
+            "dfeName": "transfer_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "transfer_id"
+            ]
+          },
+          {
+            "dfeName": "account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "account_number"
+            ]
+          },
+          {
+            "dfeName": "partner_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "partner_id"
+            ]
+          },
+          {
+            "dfeName": "receiver_account_open_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_account_open_date"
+            ]
+          },
+          {
+            "dfeName": "linked_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linked_account_number"
+            ]
+          },
+          {
+            "dfeName": "event_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "event_id"
+            ]
+          },
+          {
+            "dfeName": "socure_sigma_score_v3",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "socure_sigma_score_v3"
+            ]
+          },
+          {
+            "dfeName": "wire_status",
+            "dataType": "String",
+            "rawFieldNames": [
+              "wire_status"
+            ]
+          },
+          {
+            "dfeName": "receiver_available_balance",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "receiver_available_balance"
+            ]
+          },
+          {
+            "dfeName": "receiving_acct_addr",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiving_acct_addr"
+            ]
+          },
+          {
+            "dfeName": "socure_name_email_correlation_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_name_email_correlation_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "mobile_phone_area_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mobile_phone_area_code"
+            ]
+          },
+          {
+            "dfeName": "instructing_bank_address",
+            "dataType": "String",
+            "rawFieldNames": [
+              "instructing_bank_address"
+            ]
+          },
+          {
+            "dfeName": "legal_last_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "legal_last_name"
+            ]
+          },
+          {
+            "dfeName": "receiver_state",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_state"
+            ]
+          },
+          {
+            "dfeName": "wire_transaction_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "wire_transaction_id"
+            ]
+          },
+          {
+            "dfeName": "first_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "first_name"
+            ]
+          },
+          {
+            "dfeName": "socure_address_risk_reason_codes",
+            "dataType": "String",
+            "rawFieldNames": [
+              "socure_address_risk_reason_codes"
+            ]
+          },
+          {
+            "dfeName": "sender_account_open_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sender_account_open_date"
+            ]
+          },
+          {
+            "dfeName": "mailing_address_state_code",
+            "dataType": "String",
+            "rawFieldNames": [
+              "mailing_address_state_code"
+            ]
+          },
+          {
+            "dfeName": "sofi_account_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "sofi_account_id"
+            ]
+          },
+          {
+            "dfeName": "receiving_bank_aba",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiving_bank_aba"
+            ]
+          },
+          {
+            "dfeName": "hash_id",
+            "dataType": "String",
+            "rawFieldNames": [
+              "hash_id"
+            ]
+          },
+          {
+            "dfeName": "receiving_bank_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiving_bank_name"
+            ]
+          },
+          {
+            "dfeName": "cadence",
+            "dataType": "String",
+            "rawFieldNames": [
+              "cadence"
+            ]
+          },
+          {
+            "dfeName": "primary_routing_num",
+            "dataType": "String",
+            "rawFieldNames": [
+              "primary_routing_num"
+            ]
+          },
+          {
+            "dfeName": "wire_reason",
+            "dataType": "String",
+            "rawFieldNames": [
+              "wire_reason"
+            ]
+          },
+          {
+            "dfeName": "linked_account_linking_type",
+            "dataType": "String",
+            "rawFieldNames": [
+              "linked_account_linking_type"
+            ]
+          },
+          {
+            "dfeName": "1h_wire_trans_count_per_sender",
+            "dataType": "int",
+            "rawFieldNames": [
+              "1h_wire_trans_count_per_sender"
+            ]
+          },
+          {
+            "dfeName": "1h_zelle_trans_count_per_full_name_external",
+            "dataType": "int",
+            "rawFieldNames": [
+              "1h_zelle_trans_count_per_full_name_external"
+            ]
+          },
+          {
+            "dfeName": "ACH_count_in_24h_per_user",
+            "dataType": "int",
+            "rawFieldNames": [
+              "ACH_count_in_24h_per_user"
+            ]
+          },
+          {
+            "dfeName": "ACH_external_routing_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ACH_external_routing_account_number"
+            ]
+          },
+          {
+            "dfeName": "P2P_request_count_per_user_in_24h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "P2P_request_count_per_user_in_24h"
+            ]
+          },
+          {
+            "dfeName": "account_count_per_receiving_email",
+            "dataType": "int",
+            "rawFieldNames": [
+              "account_count_per_receiving_email"
+            ]
+          },
+          {
+            "dfeName": "bin_10_socure_email_risk_score",
+            "dataType": "Float",
+            "rawFieldNames": [
+              "bin_10_socure_email_risk_score"
+            ]
+          },
+          {
+            "dfeName": "bin_10_socure_sigma_score_v3",
+            "dataType": "Double",
+            "rawFieldNames": [
+              "bin_10_socure_sigma_score_v3"
+            ]
+          },
+          {
+            "dfeName": "check_user_count_per_payer_acct_num_3day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "check_user_count_per_payer_acct_num_3day"
+            ]
+          },
+          {
+            "dfeName": "check_user_count_per_payer_acct_num_7day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "check_user_count_per_payer_acct_num_7day"
+            ]
+          },
+          {
+            "dfeName": "count_failed_password_login_last_1_day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "count_failed_password_login_last_1_day"
+            ]
+          },
+          {
+            "dfeName": "count_failed_password_login_last_3_day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "count_failed_password_login_last_3_day"
+            ]
+          },
+          {
+            "dfeName": "count_new_two_factor_data_3_day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "count_new_two_factor_data_3_day"
+            ]
+          },
+          {
+            "dfeName": "count_password_changed_last_1_day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "count_password_changed_last_1_day"
+            ]
+          },
+          {
+            "dfeName": "count_password_changed_last_3_day",
+            "dataType": "int",
+            "rawFieldNames": [
+              "count_password_changed_last_3_day"
+            ]
+          },
+          {
+            "dfeName": "email_8_gram",
+            "dataType": "Set<String>",
+            "rawFieldNames": [
+              "email_8_gram"
+            ]
+          },
+          {
+            "dfeName": "email_count_gt_1",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "email_count_gt_1"
+            ]
+          },
+          {
+            "dfeName": "email_count_per_user",
+            "dataType": "int",
+            "rawFieldNames": [
+              "email_count_per_user"
+            ]
+          },
+          {
+            "dfeName": "email_domain",
+            "dataType": "String",
+            "rawFieldNames": [
+              "email_domain"
+            ]
+          },
+          {
+            "dfeName": "email_prefix",
+            "dataType": "String",
+            "rawFieldNames": [
+              "email_prefix"
+            ]
+          },
+          {
+            "dfeName": "email_simplified_prefix",
+            "dataType": "String",
+            "rawFieldNames": [
+              "email_simplified_prefix"
+            ]
+          },
+          {
+            "dfeName": "event_time_MILLISECOND_2",
+            "dataType": "Long",
+            "rawFieldNames": [
+              "event_time_MILLISECOND_2"
+            ]
+          },
+          {
+            "dfeName": "external_routing_account_number",
+            "dataType": "String",
+            "rawFieldNames": [
+              "external_routing_account_number"
+            ]
+          },
+          {
+            "dfeName": "has_2_receiver_name_count_per_receiver_email",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_2_receiver_name_count_per_receiver_email"
+            ]
+          },
+          {
+            "dfeName": "has_3_account_count_per_receiving_email",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_account_count_per_receiving_email"
+            ]
+          },
+          {
+            "dfeName": "has_3_ip_city_per_user_in_1h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_ip_city_per_user_in_1h"
+            ]
+          },
+          {
+            "dfeName": "has_3_ip_count_per_user_in_1h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_ip_count_per_user_in_1h"
+            ]
+          },
+          {
+            "dfeName": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_number_of_senders_per_P2P_receiver_email_48h"
+            ]
+          },
+          {
+            "dfeName": "has_3_number_of_users_per_ACH_receiver_in_24h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_number_of_users_per_ACH_receiver_in_24h"
+            ]
+          },
+          {
+            "dfeName": "has_3_trans_per_hour",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_3_trans_per_hour"
+            ]
+          },
+          {
+            "dfeName": "has_4_ACH_count_in_24h_per_user",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_4_ACH_count_in_24h_per_user"
+            ]
+          },
+          {
+            "dfeName": "has_4_P2P_request_count_per_user_in_24h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_4_P2P_request_count_per_user_in_24h"
+            ]
+          },
+          {
+            "dfeName": "has_4_withdraw_per_external_acct_num_24h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_4_withdraw_per_external_acct_num_24h"
+            ]
+          },
+          {
+            "dfeName": "has_5_P2P_request_count_per_user_in_24h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_5_P2P_request_count_per_user_in_24h"
+            ]
+          },
+          {
+            "dfeName": "has_5_sender_per_receiving_email_48h",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_5_sender_per_receiving_email_48h"
+            ]
+          },
+          {
+            "dfeName": "has_5_trans_per_hour",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_5_trans_per_hour"
+            ]
+          },
+          {
+            "dfeName": "has_TFA_changed_3_day",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_TFA_changed_3_day"
+            ]
+          },
+          {
+            "dfeName": "has_failed_password_login_last_3_day",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_failed_password_login_last_3_day"
+            ]
+          },
+          {
+            "dfeName": "has_high_1h_zelle_count_for_full_name_external",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_high_1h_zelle_count_for_full_name_external"
+            ]
+          },
+          {
+            "dfeName": "has_high_receiver_email_count_per_receiver_name",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_high_receiver_email_count_per_receiver_name"
+            ]
+          },
+          {
+            "dfeName": "has_password_change_last_3_day",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "has_password_change_last_3_day"
+            ]
+          },
+          {
+            "dfeName": "high_check_user_count_per_payer_acct_num_3day",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "high_check_user_count_per_payer_acct_num_3day"
+            ]
+          },
+          {
+            "dfeName": "high_check_user_count_per_payer_acct_num_7day",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "high_check_user_count_per_payer_acct_num_7day"
+            ]
+          },
+          {
+            "dfeName": "ip_city",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ip_city"
+            ]
+          },
+          {
+            "dfeName": "ip_city_count_per_user_1h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "ip_city_count_per_user_1h"
+            ]
+          },
+          {
+            "dfeName": "ip_count_per_user_1h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "ip_count_per_user_1h"
+            ]
+          },
+          {
+            "dfeName": "ip_country",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ip_country"
+            ]
+          },
+          {
+            "dfeName": "ip_province",
+            "dataType": "String",
+            "rawFieldNames": [
+              "ip_province"
+            ]
+          },
+          {
+            "dfeName": "is_avail_balance_less_than_1",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_avail_balance_less_than_1"
+            ]
+          },
+          {
+            "dfeName": "is_bin_socure_email_risk_score_ls_0p3",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_bin_socure_email_risk_score_ls_0p3"
+            ]
+          },
+          {
+            "dfeName": "is_in_fraud_event_id",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_in_fraud_event_id"
+            ]
+          },
+          {
+            "dfeName": "is_in_fraud_user",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_in_fraud_user"
+            ]
+          },
+          {
+            "dfeName": "is_ip_from_datacenter",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_ip_from_datacenter"
+            ]
+          },
+          {
+            "dfeName": "is_ramdom_email_prefix",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_ramdom_email_prefix"
+            ]
+          },
+          {
+            "dfeName": "is_random_email_prefix",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_random_email_prefix"
+            ]
+          },
+          {
+            "dfeName": "is_sender_remain_balance_after_p2p_low",
+            "dataType": "Boolean",
+            "rawFieldNames": [
+              "is_sender_remain_balance_after_p2p_low"
+            ]
+          },
+          {
+            "dfeName": "money_transfer_amount_round_to_1",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "money_transfer_amount_round_to_1"
+            ]
+          },
+          {
+            "dfeName": "money_transfer_amount_round_to_10",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "money_transfer_amount_round_to_10"
+            ]
+          },
+          {
+            "dfeName": "money_transfer_log2_amount",
+            "dataType": "Integer",
+            "rawFieldNames": [
+              "money_transfer_log2_amount"
+            ]
+          },
+          {
+            "dfeName": "num_of_withdraw_per_external_acct_num_24h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "num_of_withdraw_per_external_acct_num_24h"
+            ]
+          },
+          {
+            "dfeName": "number_of_senders_per_P2P_receiver",
+            "dataType": "int",
+            "rawFieldNames": [
+              "number_of_senders_per_P2P_receiver"
+            ]
+          },
+          {
+            "dfeName": "number_of_senders_per_P2P_receiver_email",
+            "dataType": "int",
+            "rawFieldNames": [
+              "number_of_senders_per_P2P_receiver_email"
+            ]
+          },
+          {
+            "dfeName": "number_of_senders_per_P2P_receiver_email_48h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "number_of_senders_per_P2P_receiver_email_48h"
+            ]
+          },
+          {
+            "dfeName": "number_of_users_per_ACH_receiver_in_24h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "number_of_users_per_ACH_receiver_in_24h"
+            ]
+          },
+          {
+            "dfeName": "number_of_wire_user_per_receiver_in_24h",
+            "dataType": "int",
+            "rawFieldNames": [
+              "number_of_wire_user_per_receiver_in_24h"
+            ]
+          },
+          {
+            "dfeName": "receiver_email_count_per_receiver_name",
+            "dataType": "int",
+            "rawFieldNames": [
+              "receiver_email_count_per_receiver_name"
+            ]
+          },
+          {
+            "dfeName": "receiver_name",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_name"
+            ]
+          },
+          {
+            "dfeName": "receiver_name_count_per_receiver_email",
+            "dataType": "int",
+            "rawFieldNames": [
+              "receiver_name_count_per_receiver_email"
+            ]
+          },
+          {
+            "dfeName": "receiver_name_lowercase",
+            "dataType": "String",
+            "rawFieldNames": [
+              "receiver_name_lowercase"
+            ]
+          },
+          {
+            "dfeName": "time_date",
+            "dataType": "String",
+            "rawFieldNames": [
+              "time_date"
+            ]
+          },
+          {
+            "dfeName": "time_hour",
+            "dataType": "String",
+            "rawFieldNames": [
+              "time_hour"
+            ]
+          },
+          {
+            "dfeName": "transaction_count_per_hour",
+            "dataType": "int",
+            "rawFieldNames": [
+              "transaction_count_per_hour"
+            ]
+          },
+          {
+            "dfeName": "zelle_trans_count_per_full_name_external",
+            "dataType": "int",
+            "rawFieldNames": [
+              "zelle_trans_count_per_full_name_external"
+            ]
+          },
+          {
+            "dfeName": "zelle_wire_count_in_24h_per_user",
+            "dataType": "int",
+            "rawFieldNames": [
+              "zelle_wire_count_in_24h_per_user"
+            ]
+          }
+        ],
+        "eventTypeEntries": [
+          {
+            "entryIndex": 5,
+            "name": "others",
+            "category": 1
+          }
+        ],
+        "eventAttributeEntries": [
+          {
+            "name": "bin_10_socure_sigma_score_v3",
+            "typeIndex": 2,
+            "defaultDfeName": "bin_10_socure_sigma_score_v3",
+            "tag": 33
+          },
+          {
+            "name": "home_address_state_name",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_state_name"
+          },
+          {
+            "name": "socure_name_address_correlation_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_address_correlation_reason_codes"
+          },
+          {
+            "name": "user_id",
+            "typeIndex": 2,
+            "defaultDfeName": "user_id",
+            "tag": 2
+          },
+          {
+            "name": "two_factor_data",
+            "typeIndex": 2,
+            "defaultDfeName": "two_factor_data"
+          },
+          {
+            "name": "has_5_trans_per_hour",
+            "typeIndex": 2,
+            "defaultDfeName": "has_5_trans_per_hour",
+            "tag": 33
+          },
+          {
+            "name": "external_routing_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "external_routing_account_number",
+            "tag": 33
+          },
+          {
+            "name": "unstructured_addenda_info",
+            "typeIndex": 2,
+            "defaultDfeName": "unstructured_addenda_info"
+          },
+          {
+            "name": "home_phone_designation",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_designation"
+          },
+          {
+            "name": "primary_email_verified",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_email_verified"
+          },
+          {
+            "name": "type_sub_type",
+            "typeIndex": 2,
+            "defaultDfeName": "type_sub_type"
+          },
+          {
+            "name": "full_name_external",
+            "typeIndex": 2,
+            "defaultDfeName": "full_name_external"
+          },
+          {
+            "name": "ip_country",
+            "typeIndex": 2,
+            "defaultDfeName": "ip_country",
+            "tag": 33
+          },
+          {
+            "name": "socure_name_address_correlation_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_address_correlation_score"
+          },
+          {
+            "name": "mobile_phone_sms_accepted_ind",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_sms_accepted_ind"
+          },
+          {
+            "name": "business_function_code",
+            "typeIndex": 2,
+            "defaultDfeName": "business_function_code"
+          },
+          {
+            "name": "count_failed_password_login_last_1_day",
+            "typeIndex": 2,
+            "defaultDfeName": "count_failed_password_login_last_1_day",
+            "tag": 33
+          },
+          {
+            "name": "created_for",
+            "typeIndex": 2,
+            "defaultDfeName": "created_for"
+          },
+          {
+            "name": "external_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "external_account_number"
+          },
+          {
+            "name": "home_phone_sms_accepted_ind",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_sms_accepted_ind"
+          },
+          {
+            "name": "has_3_ip_count_per_user_in_1h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_ip_count_per_user_in_1h",
+            "tag": 33
+          },
+          {
+            "name": "has_high_receiver_email_count_per_receiver_name",
+            "typeIndex": 2,
+            "defaultDfeName": "has_high_receiver_email_count_per_receiver_name",
+            "tag": 33
+          },
+          {
+            "name": "receiver_zip_code",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_zip_code"
+          },
+          {
+            "name": "status",
+            "typeIndex": 2,
+            "defaultDfeName": "status"
+          },
+          {
+            "name": "zelle_trans_count_per_full_name_external",
+            "typeIndex": 2,
+            "defaultDfeName": "zelle_trans_count_per_full_name_external",
+            "tag": 33
+          },
+          {
+            "name": "receiver_address_line2",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_line2"
+          },
+          {
+            "name": "transaction_date",
+            "typeIndex": 2,
+            "defaultDfeName": "transaction_date"
+          },
+          {
+            "name": "count_password_changed_last_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "count_password_changed_last_3_day",
+            "tag": 33
+          },
+          {
+            "name": "primary_email_address",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_email_address"
+          },
+          {
+            "name": "linked_account_linking_type",
+            "typeIndex": 2,
+            "defaultDfeName": "linked_account_linking_type"
+          },
+          {
+            "name": "zelle_wire_count_in_24h_per_user",
+            "typeIndex": 2,
+            "defaultDfeName": "zelle_wire_count_in_24h_per_user",
+            "tag": 33
+          },
+          {
+            "name": "is_restriction_removed",
+            "typeIndex": 2,
+            "defaultDfeName": "is_restriction_removed"
+          },
+          {
+            "name": "sender_available_balance",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_available_balance"
+          },
+          {
+            "name": "email",
+            "typeIndex": 2,
+            "defaultDfeName": "email"
+          },
+          {
+            "name": "restriction_flag",
+            "typeIndex": 2,
+            "defaultDfeName": "restriction_flag"
+          },
+          {
+            "name": "work_phone_verified_date",
+            "typeIndex": 2,
+            "defaultDfeName": "work_phone_verified_date"
+          },
+          {
+            "name": "mobile_phone_area_code",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_area_code"
+          },
+          {
+            "name": "receiver_phone_number",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_phone_number"
+          },
+          {
+            "name": "old_two_factor_data",
+            "typeIndex": 2,
+            "defaultDfeName": "old_two_factor_data"
+          },
+          {
+            "name": "home_address_city",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_city"
+          },
+          {
+            "name": "is_ip_from_datacenter",
+            "typeIndex": 2,
+            "defaultDfeName": "is_ip_from_datacenter",
+            "tag": 33
+          },
+          {
+            "name": "is_random_email_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "is_random_email_prefix",
+            "tag": 33
+          },
+          {
+            "name": "mobile_phone_verified",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_verified"
+          },
+          {
+            "name": "home_address_state_code",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_state_code"
+          },
+          {
+            "name": "event_id",
+            "typeIndex": 2,
+            "defaultDfeName": "event_id"
+          },
+          {
+            "name": "legal_first_name",
+            "typeIndex": 2,
+            "defaultDfeName": "legal_first_name"
+          },
+          {
+            "name": "rfb",
+            "typeIndex": 2,
+            "defaultDfeName": "rfb"
+          },
+          {
+            "name": "socure_synthetic_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_synthetic_reason_codes"
+          },
+          {
+            "name": "plaid_account_balance",
+            "typeIndex": 2,
+            "defaultDfeName": "plaid_account_balance"
+          },
+          {
+            "name": "event_description",
+            "typeIndex": 2,
+            "defaultDfeName": "event_description"
+          },
+          {
+            "name": "receiver_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_account_number"
+          },
+          {
+            "name": "sender_zip_code",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_zip_code"
+          },
+          {
+            "name": "socure_fraud_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_fraud_reason_codes"
+          },
+          {
+            "name": "receiver_available_balance",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_available_balance"
+          },
+          {
+            "name": "event_subtype",
+            "typeIndex": 2,
+            "defaultDfeName": "event_subtype"
+          },
+          {
+            "name": "sofi_account_id",
+            "typeIndex": 2,
+            "defaultDfeName": "sofi_account_id"
+          },
+          {
+            "name": "currency",
+            "typeIndex": 2,
+            "defaultDfeName": "currency"
+          },
+          {
+            "name": "secondary_party_id",
+            "typeIndex": 2,
+            "defaultDfeName": "secondary_party_id"
+          },
+          {
+            "name": "has_3_account_count_per_receiving_email",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_account_count_per_receiving_email",
+            "tag": 33
+          },
+          {
+            "name": "date_of_full_availability",
+            "typeIndex": 2,
+            "defaultDfeName": "date_of_full_availability"
+          },
+          {
+            "name": "new_two_factor_type",
+            "typeIndex": 2,
+            "defaultDfeName": "new_two_factor_type"
+          },
+          {
+            "name": "work_phone_area_code",
+            "typeIndex": 2,
+            "defaultDfeName": "work_phone_area_code"
+          },
+          {
+            "name": "sender_address_line1",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_line1"
+          },
+          {
+            "name": "check_21_return_reason_cd",
+            "typeIndex": 2,
+            "defaultDfeName": "check_21_return_reason_cd"
+          },
+          {
+            "name": "date_of_birth",
+            "typeIndex": 2,
+            "defaultDfeName": "date_of_birth"
+          },
+          {
+            "name": "legal_last_name",
+            "typeIndex": 2,
+            "defaultDfeName": "legal_last_name"
+          },
+          {
+            "name": "sender_address_line2",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_line2"
+          },
+          {
+            "name": "external_routing_number",
+            "typeIndex": 2,
+            "defaultDfeName": "external_routing_number"
+          },
+          {
+            "name": "has_4_P2P_request_count_per_user_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_4_P2P_request_count_per_user_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "mobile_phone_designation",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_designation"
+          },
+          {
+            "name": "mailing_address_state_name",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_state_name"
+          },
+          {
+            "name": "socure_name_phone_correlation_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_phone_correlation_reason_codes"
+          },
+          {
+            "name": "socure_phone_risk_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_phone_risk_score"
+          },
+          {
+            "name": "hash_id",
+            "typeIndex": 2,
+            "defaultDfeName": "hash_id"
+          },
+          {
+            "name": "ip_city",
+            "typeIndex": 2,
+            "defaultDfeName": "ip_city",
+            "tag": 33
+          },
+          {
+            "name": "mailing_address_postal_code",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_postal_code"
+          },
+          {
+            "name": "socure_email_risk_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_email_risk_score"
+          },
+          {
+            "name": "receiver_address_zip",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_zip"
+          },
+          {
+            "name": "do_plaid_and_account_names_match",
+            "typeIndex": 2,
+            "defaultDfeName": "do_plaid_and_account_names_match"
+          },
+          {
+            "name": "socure_email_risk_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_email_risk_reason_codes"
+          },
+          {
+            "name": "file_id",
+            "typeIndex": 2,
+            "defaultDfeName": "file_id"
+          },
+          {
+            "name": "home_address_line2",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_line2"
+          },
+          {
+            "name": "home_address_country_code",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_country_code"
+          },
+          {
+            "name": "routing_num",
+            "typeIndex": 2,
+            "defaultDfeName": "routing_num"
+          },
+          {
+            "name": "deposit_date",
+            "typeIndex": 2,
+            "defaultDfeName": "deposit_date"
+          },
+          {
+            "name": "sender_state",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_state"
+          },
+          {
+            "name": "account_id",
+            "typeIndex": 2,
+            "defaultDfeName": "account_id"
+          },
+          {
+            "name": "email_simplified_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "email_simplified_prefix",
+            "tag": 33
+          },
+          {
+            "name": "job_title",
+            "typeIndex": 2,
+            "defaultDfeName": "job_title"
+          },
+          {
+            "name": "is_avail_balance_less_than_1",
+            "typeIndex": 2,
+            "defaultDfeName": "is_avail_balance_less_than_1",
+            "tag": 33
+          },
+          {
+            "name": "movement_id",
+            "typeIndex": 2,
+            "defaultDfeName": "movement_id"
+          },
+          {
+            "name": "acct_txn_dt_tm",
+            "typeIndex": 2,
+            "defaultDfeName": "acct_txn_dt_tm"
+          },
+          {
+            "name": "home_address_unit_no",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_unit_no"
+          },
+          {
+            "name": "receiver_account_open_date",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_account_open_date"
+          },
+          {
+            "name": "wire_facilitator",
+            "typeIndex": 2,
+            "defaultDfeName": "wire_facilitator"
+          },
+          {
+            "name": "has_5_sender_per_receiving_email_48h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_5_sender_per_receiving_email_48h",
+            "tag": 33
+          },
+          {
+            "name": "bin_10_socure_email_risk_score",
+            "typeIndex": 2,
+            "defaultDfeName": "bin_10_socure_email_risk_score",
+            "tag": 33
+          },
+          {
+            "name": "linked_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "linked_account_number"
+          },
+          {
+            "name": "sender_address_zip",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_zip"
+          },
+          {
+            "name": "first_name",
+            "typeIndex": 2,
+            "defaultDfeName": "first_name"
+          },
+          {
+            "name": "has_2_receiver_name_count_per_receiver_email",
+            "typeIndex": 2,
+            "defaultDfeName": "has_2_receiver_name_count_per_receiver_email",
+            "tag": 33
+          },
+          {
+            "name": "last_name",
+            "typeIndex": 2,
+            "defaultDfeName": "last_name"
+          },
+          {
+            "name": "last_updated_date",
+            "typeIndex": 2,
+            "defaultDfeName": "last_updated_date"
+          },
+          {
+            "name": "receiving_acct_num",
+            "typeIndex": 2,
+            "defaultDfeName": "receiving_acct_num"
+          },
+          {
+            "name": "sender_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_account_number"
+          },
+          {
+            "name": "originator_bank_name",
+            "typeIndex": 2,
+            "defaultDfeName": "originator_bank_name"
+          },
+          {
+            "name": "citizenship",
+            "typeIndex": 2,
+            "defaultDfeName": "citizenship"
+          },
+          {
+            "name": "sender_bank_aba",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_bank_aba"
+          },
+          {
+            "name": "amount",
+            "typeIndex": 2,
+            "defaultDfeName": "amount"
+          },
+          {
+            "name": "common_name_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "common_name_prefix"
+          },
+          {
+            "name": "account_creation_date",
+            "typeIndex": 2,
+            "defaultDfeName": "account_creation_date"
+          },
+          {
+            "name": "receiver_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_name",
+            "tag": 33
+          },
+          {
+            "name": "receiver_partner_id",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_partner_id"
+          },
+          {
+            "name": "previous_imad",
+            "typeIndex": 2,
+            "defaultDfeName": "previous_imad"
+          },
+          {
+            "name": "has_3_trans_per_hour",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_trans_per_hour",
+            "tag": 33
+          },
+          {
+            "name": "years_of_experience",
+            "typeIndex": 2,
+            "defaultDfeName": "years_of_experience"
+          },
+          {
+            "name": "mobile_phone_verified_date",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_verified_date"
+          },
+          {
+            "name": "number_of_senders_per_P2P_receiver_email",
+            "typeIndex": 2,
+            "defaultDfeName": "number_of_senders_per_P2P_receiver_email",
+            "tag": 33
+          },
+          {
+            "name": "local_instrument_code",
+            "typeIndex": 2,
+            "defaultDfeName": "local_instrument_code"
+          },
+          {
+            "name": "originator_bank_address",
+            "typeIndex": 2,
+            "defaultDfeName": "originator_bank_address"
+          },
+          {
+            "name": "has_failed_password_login_last_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "has_failed_password_login_last_3_day",
+            "tag": 33
+          },
+          {
+            "name": "sender_country",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_country"
+          },
+          {
+            "name": "common_middle_name",
+            "typeIndex": 2,
+            "defaultDfeName": "common_middle_name"
+          },
+          {
+            "name": "high_check_user_count_per_payer_acct_num_3day",
+            "typeIndex": 2,
+            "defaultDfeName": "high_check_user_count_per_payer_acct_num_3day",
+            "tag": 33
+          },
+          {
+            "name": "count_failed_password_login_last_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "count_failed_password_login_last_3_day",
+            "tag": 33
+          },
+          {
+            "name": "mailing_address_country_code",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_country_code"
+          },
+          {
+            "name": "created_by",
+            "typeIndex": 2,
+            "defaultDfeName": "created_by"
+          },
+          {
+            "name": "money_transfer_amount_round_to_1",
+            "typeIndex": 2,
+            "defaultDfeName": "money_transfer_amount_round_to_1",
+            "tag": 33
+          },
+          {
+            "name": "receiver_name_lowercase",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_name_lowercase",
+            "tag": 33
+          },
+          {
+            "name": "mailing_address_line1",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_line1"
+          },
+          {
+            "name": "salary_currency",
+            "typeIndex": 2,
+            "defaultDfeName": "salary_currency"
+          },
+          {
+            "name": "1h_zelle_trans_count_per_full_name_external",
+            "typeIndex": 2,
+            "defaultDfeName": "1h_zelle_trans_count_per_full_name_external",
+            "tag": 33
+          },
+          {
+            "name": "all_funds_availability_date",
+            "typeIndex": 2,
+            "defaultDfeName": "all_funds_availability_date"
+          },
+          {
+            "name": "mailing_address_line2",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_line2"
+          },
+          {
+            "name": "sender_name",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_name"
+          },
+          {
+            "name": "do_plaid_and_account_email_addresses_match",
+            "typeIndex": 2,
+            "defaultDfeName": "do_plaid_and_account_email_addresses_match"
+          },
+          {
+            "name": "is_restriction_added",
+            "typeIndex": 2,
+            "defaultDfeName": "is_restriction_added"
+          },
+          {
+            "name": "reference_id",
+            "typeIndex": 2,
+            "defaultDfeName": "reference_id"
+          },
+          {
+            "name": "home_address_line1",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_line1"
+          },
+          {
+            "name": "originator_bank_swift",
+            "typeIndex": 2,
+            "defaultDfeName": "originator_bank_swift"
+          },
+          {
+            "name": "receiver_routing_number",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_routing_number"
+          },
+          {
+            "name": "third_party_id",
+            "typeIndex": 2,
+            "defaultDfeName": "third_party_id"
+          },
+          {
+            "name": "has_TFA_changed_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "has_TFA_changed_3_day",
+            "tag": 33
+          },
+          {
+            "name": "has_5_P2P_request_count_per_user_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_5_P2P_request_count_per_user_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "sender_acct_name",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_acct_name"
+          },
+          {
+            "name": "receiver_address_state",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_state"
+          },
+          {
+            "name": "current_sofi_employee",
+            "typeIndex": 2,
+            "defaultDfeName": "current_sofi_employee"
+          },
+          {
+            "name": "has_3_number_of_users_per_ACH_receiver_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_number_of_users_per_ACH_receiver_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "common_first_name",
+            "typeIndex": 2,
+            "defaultDfeName": "common_first_name"
+          },
+          {
+            "name": "cadence",
+            "typeIndex": 2,
+            "defaultDfeName": "cadence"
+          },
+          {
+            "name": "originator_bank_country",
+            "typeIndex": 2,
+            "defaultDfeName": "originator_bank_country"
+          },
+          {
+            "name": "receiver_address_city",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_city"
+          },
+          {
+            "name": "socure_address_risk_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_address_risk_reason_codes"
+          },
+          {
+            "name": "ip",
+            "typeIndex": 2,
+            "defaultDfeName": "ip"
+          },
+          {
+            "name": "old_two_factor_type",
+            "typeIndex": 2,
+            "defaultDfeName": "old_two_factor_type"
+          },
+          {
+            "name": "account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "account_number"
+          },
+          {
+            "name": "common_last_name",
+            "typeIndex": 2,
+            "defaultDfeName": "common_last_name"
+          },
+          {
+            "name": "data_source",
+            "typeIndex": 2,
+            "defaultDfeName": "data_source"
+          },
+          {
+            "name": "comment",
+            "typeIndex": 2,
+            "defaultDfeName": "comment"
+          },
+          {
+            "name": "event_id_original",
+            "typeIndex": 2,
+            "defaultDfeName": "event_id_original"
+          },
+          {
+            "name": "receiver_country",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_country"
+          },
+          {
+            "name": "receiver_name_count_per_receiver_email",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_name_count_per_receiver_email",
+            "tag": 33
+          },
+          {
+            "name": "attempt_ip",
+            "typeIndex": 2,
+            "defaultDfeName": "attempt_ip"
+          },
+          {
+            "name": "primary_routing_num",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_routing_num"
+          },
+          {
+            "name": "sender_acct_num",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_acct_num"
+          },
+          {
+            "name": "resend_counter",
+            "typeIndex": 2,
+            "defaultDfeName": "resend_counter"
+          },
+          {
+            "name": "completed",
+            "typeIndex": 2,
+            "defaultDfeName": "completed"
+          },
+          {
+            "name": "employer_name",
+            "typeIndex": 2,
+            "defaultDfeName": "employer_name"
+          },
+          {
+            "name": "home_phone_number",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_number"
+          },
+          {
+            "name": "receiver_risk_group",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_risk_group"
+          },
+          {
+            "name": "plaid_account_name",
+            "typeIndex": 2,
+            "defaultDfeName": "plaid_account_name"
+          },
+          {
+            "name": "ip_city_count_per_user_1h",
+            "typeIndex": 2,
+            "defaultDfeName": "ip_city_count_per_user_1h",
+            "tag": 33
+          },
+          {
+            "name": "email_count_per_user",
+            "typeIndex": 2,
+            "defaultDfeName": "email_count_per_user",
+            "tag": 33
+          },
+          {
+            "name": "ip_province",
+            "typeIndex": 2,
+            "defaultDfeName": "ip_province",
+            "tag": 33
+          },
+          {
+            "name": "is_in_fraud_user",
+            "typeIndex": 2,
+            "defaultDfeName": "is_in_fraud_user",
+            "tag": 33
+          },
+          {
+            "name": "fee_transaction_id",
+            "typeIndex": 2,
+            "defaultDfeName": "fee_transaction_id"
+          },
+          {
+            "name": "ofac_ticket_action",
+            "typeIndex": 2,
+            "defaultDfeName": "ofac_ticket_action"
+          },
+          {
+            "name": "user_active",
+            "typeIndex": 2,
+            "defaultDfeName": "user_active"
+          },
+          {
+            "name": "P2P_request_count_per_user_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "P2P_request_count_per_user_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "primary_acct_num",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_acct_num"
+          },
+          {
+            "name": "socure_name_email_correlation_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_email_correlation_reason_codes"
+          },
+          {
+            "name": "home_phone_verified_date",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_verified_date"
+          },
+          {
+            "name": "adjusted_amt",
+            "typeIndex": 2,
+            "defaultDfeName": "adjusted_amt"
+          },
+          {
+            "name": "receiving_acct_addr",
+            "typeIndex": 2,
+            "defaultDfeName": "receiving_acct_addr"
+          },
+          {
+            "name": "legacy_fraud_status",
+            "typeIndex": 2,
+            "defaultDfeName": "legacy_fraud_status"
+          },
+          {
+            "name": "receiving_bank_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiving_bank_name"
+          },
+          {
+            "name": "is_ramdom_email_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "is_ramdom_email_prefix",
+            "tag": 33
+          },
+          {
+            "name": "do_plaid_and_account_phone_numbers_match",
+            "typeIndex": 2,
+            "defaultDfeName": "do_plaid_and_account_phone_numbers_match"
+          },
+          {
+            "name": "external_ref_number",
+            "typeIndex": 2,
+            "defaultDfeName": "external_ref_number"
+          },
+          {
+            "name": "receiver_id",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_id"
+          },
+          {
+            "name": "linking_decision",
+            "typeIndex": 2,
+            "defaultDfeName": "linking_decision"
+          },
+          {
+            "name": "linking_result_id",
+            "typeIndex": 2,
+            "defaultDfeName": "linking_result_id"
+          },
+          {
+            "name": "sender_ledger_balance",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_ledger_balance"
+          },
+          {
+            "name": "attempt_result",
+            "typeIndex": 2,
+            "defaultDfeName": "attempt_result"
+          },
+          {
+            "name": "number_of_users_per_ACH_receiver_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "number_of_users_per_ACH_receiver_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "created_date",
+            "typeIndex": 2,
+            "defaultDfeName": "created_date"
+          },
+          {
+            "name": "receiver_last_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_last_name"
+          },
+          {
+            "name": "transaction_type",
+            "typeIndex": 2,
+            "defaultDfeName": "transaction_type"
+          },
+          {
+            "name": "has_4_withdraw_per_external_acct_num_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_4_withdraw_per_external_acct_num_24h",
+            "tag": 33
+          },
+          {
+            "name": "number_of_senders_per_P2P_receiver",
+            "typeIndex": 2,
+            "defaultDfeName": "number_of_senders_per_P2P_receiver",
+            "tag": 33
+          },
+          {
+            "name": "socure_phone_risk_reason_codes",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_phone_risk_reason_codes"
+          },
+          {
+            "name": "attempt_counter",
+            "typeIndex": 2,
+            "defaultDfeName": "attempt_counter"
+          },
+          {
+            "name": "event_time",
+            "typeIndex": 2,
+            "defaultDfeName": "event_time",
+            "tag": 4
+          },
+          {
+            "name": "count_new_two_factor_data_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "count_new_two_factor_data_3_day",
+            "tag": 33
+          },
+          {
+            "name": "fee_movement_id",
+            "typeIndex": 2,
+            "defaultDfeName": "fee_movement_id"
+          },
+          {
+            "name": "instructing_bank_address",
+            "typeIndex": 2,
+            "defaultDfeName": "instructing_bank_address"
+          },
+          {
+            "name": "transfer_id",
+            "typeIndex": 2,
+            "defaultDfeName": "transfer_id"
+          },
+          {
+            "name": "sender_last_name",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_last_name"
+          },
+          {
+            "name": "socure_address_risk_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_address_risk_score"
+          },
+          {
+            "name": "dv_original_api_inf",
+            "typeIndex": 2,
+            "defaultDfeName": "dv_original_api_inf"
+          },
+          {
+            "name": "two_factor_type",
+            "typeIndex": 2,
+            "defaultDfeName": "two_factor_type"
+          },
+          {
+            "name": "email_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "email_prefix",
+            "tag": 33
+          },
+          {
+            "name": "asset_movement_status",
+            "typeIndex": 2,
+            "defaultDfeName": "asset_movement_status"
+          },
+          {
+            "name": "email_count_gt_1",
+            "typeIndex": 2,
+            "defaultDfeName": "email_count_gt_1",
+            "tag": 33
+          },
+          {
+            "name": "new_two_factor_data",
+            "typeIndex": 2,
+            "defaultDfeName": "new_two_factor_data"
+          },
+          {
+            "name": "note",
+            "typeIndex": 2,
+            "defaultDfeName": "note"
+          },
+          {
+            "name": "primary_party_id",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_party_id"
+          },
+          {
+            "name": "wire_reason",
+            "typeIndex": 2,
+            "defaultDfeName": "wire_reason"
+          },
+          {
+            "name": "email_8_gram",
+            "typeIndex": 4,
+            "defaultDfeName": "email_8_gram",
+            "tag": 33
+          },
+          {
+            "name": "wire_type",
+            "typeIndex": 2,
+            "defaultDfeName": "wire_type"
+          },
+          {
+            "name": "wire_transaction_id",
+            "typeIndex": 2,
+            "defaultDfeName": "wire_transaction_id"
+          },
+          {
+            "name": "money_transfer_log2_amount",
+            "typeIndex": 2,
+            "defaultDfeName": "money_transfer_log2_amount",
+            "tag": 33
+          },
+          {
+            "name": "linked_institution_name",
+            "typeIndex": 2,
+            "defaultDfeName": "linked_institution_name"
+          },
+          {
+            "name": "instructing_bank_name",
+            "typeIndex": 2,
+            "defaultDfeName": "instructing_bank_name"
+          },
+          {
+            "name": "ACH_external_routing_account_number",
+            "typeIndex": 2,
+            "defaultDfeName": "ACH_external_routing_account_number",
+            "tag": 33
+          },
+          {
+            "name": "check_user_count_per_payer_acct_num_3day",
+            "typeIndex": 2,
+            "defaultDfeName": "check_user_count_per_payer_acct_num_3day",
+            "tag": 33
+          },
+          {
+            "name": "receiver_customer_status_description",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_customer_status_description"
+          },
+          {
+            "name": "time_date",
+            "typeIndex": 2,
+            "defaultDfeName": "time_date",
+            "tag": 33
+          },
+          {
+            "name": "platform",
+            "typeIndex": 2,
+            "defaultDfeName": "platform"
+          },
+          {
+            "name": "fed_ack_time",
+            "typeIndex": 2,
+            "defaultDfeName": "fed_ack_time"
+          },
+          {
+            "name": "ip_count_per_user_1h",
+            "typeIndex": 2,
+            "defaultDfeName": "ip_count_per_user_1h",
+            "tag": 33
+          },
+          {
+            "name": "receiving_bank_aba",
+            "typeIndex": 2,
+            "defaultDfeName": "receiving_bank_aba"
+          },
+          {
+            "name": "home_phone_country_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_country_prefix"
+          },
+          {
+            "name": "employment_type",
+            "typeIndex": 2,
+            "defaultDfeName": "employment_type"
+          },
+          {
+            "name": "kdt",
+            "typeIndex": 2,
+            "defaultDfeName": "kdt"
+          },
+          {
+            "name": "receiver_email_count_per_receiver_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_email_count_per_receiver_name",
+            "tag": 33
+          },
+          {
+            "name": "receiver_address_country",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_country"
+          },
+          {
+            "name": "event_time_MILLISECOND_2",
+            "typeIndex": 2,
+            "defaultDfeName": "event_time_MILLISECOND_2",
+            "tag": 33
+          },
+          {
+            "name": "sender_address_country",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_country"
+          },
+          {
+            "name": "partner_id",
+            "typeIndex": 2,
+            "defaultDfeName": "partner_id"
+          },
+          {
+            "name": "sender_bank_name",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_bank_name"
+          },
+          {
+            "name": "home_address_postal_code",
+            "typeIndex": 2,
+            "defaultDfeName": "home_address_postal_code"
+          },
+          {
+            "name": "sender_first_name",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_first_name"
+          },
+          {
+            "name": "is_sender_remain_balance_after_p2p_low",
+            "typeIndex": 2,
+            "defaultDfeName": "is_sender_remain_balance_after_p2p_low",
+            "tag": 33
+          },
+          {
+            "name": "home_phone_area_code",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_area_code"
+          },
+          {
+            "name": "receiver_state",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_state"
+          },
+          {
+            "name": "mobile_phone_extension",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_extension"
+          },
+          {
+            "name": "is_debit",
+            "typeIndex": 2,
+            "defaultDfeName": "is_debit"
+          },
+          {
+            "name": "ACH_count_in_24h_per_user",
+            "typeIndex": 2,
+            "defaultDfeName": "ACH_count_in_24h_per_user",
+            "tag": 33
+          },
+          {
+            "name": "mailing_address_city",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_city"
+          },
+          {
+            "name": "home_phone_verified",
+            "typeIndex": 2,
+            "defaultDfeName": "home_phone_verified"
+          },
+          {
+            "name": "time_hour",
+            "typeIndex": 2,
+            "defaultDfeName": "time_hour",
+            "tag": 33
+          },
+          {
+            "name": "has_password_change_last_3_day",
+            "typeIndex": 2,
+            "defaultDfeName": "has_password_change_last_3_day",
+            "tag": 33
+          },
+          {
+            "name": "work_phone_number",
+            "typeIndex": 2,
+            "defaultDfeName": "work_phone_number"
+          },
+          {
+            "name": "has_high_1h_zelle_count_for_full_name_external",
+            "typeIndex": 2,
+            "defaultDfeName": "has_high_1h_zelle_count_for_full_name_external",
+            "tag": 33
+          },
+          {
+            "name": "socure_name_phone_correlation_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_phone_correlation_score"
+          },
+          {
+            "name": "payer_acct_num",
+            "typeIndex": 2,
+            "defaultDfeName": "payer_acct_num"
+          },
+          {
+            "name": "check_user_count_per_payer_acct_num_7day",
+            "typeIndex": 2,
+            "defaultDfeName": "check_user_count_per_payer_acct_num_7day",
+            "tag": 33
+          },
+          {
+            "name": "has_3_ip_city_per_user_in_1h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_ip_city_per_user_in_1h",
+            "tag": 33
+          },
+          {
+            "name": "transaction_count_per_hour",
+            "typeIndex": 2,
+            "defaultDfeName": "transaction_count_per_hour",
+            "tag": 33
+          },
+          {
+            "name": "1h_wire_trans_count_per_sender",
+            "typeIndex": 2,
+            "defaultDfeName": "1h_wire_trans_count_per_sender",
+            "tag": 33
+          },
+          {
+            "name": "email_domain",
+            "typeIndex": 2,
+            "defaultDfeName": "email_domain",
+            "tag": 33
+          },
+          {
+            "name": "external_bank_name",
+            "typeIndex": 2,
+            "defaultDfeName": "external_bank_name"
+          },
+          {
+            "name": "class",
+            "typeIndex": 2,
+            "defaultDfeName": "class"
+          },
+          {
+            "name": "sender_address_city",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_city"
+          },
+          {
+            "name": "sender_address_state",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_address_state"
+          },
+          {
+            "name": "employment_start_date",
+            "typeIndex": 2,
+            "defaultDfeName": "employment_start_date"
+          },
+          {
+            "name": "receiver_first_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_first_name"
+          },
+          {
+            "name": "sofi_employee",
+            "typeIndex": 2,
+            "defaultDfeName": "sofi_employee"
+          },
+          {
+            "name": "country_of_citizenship",
+            "typeIndex": 2,
+            "defaultDfeName": "country_of_citizenship"
+          },
+          {
+            "name": "restriction_action",
+            "typeIndex": 2,
+            "defaultDfeName": "restriction_action"
+          },
+          {
+            "name": "is_in_fraud_event_id",
+            "typeIndex": 2,
+            "defaultDfeName": "is_in_fraud_event_id",
+            "tag": 33
+          },
+          {
+            "name": "mobile_phone_number",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_number"
+          },
+          {
+            "name": "socure_name_email_correlation_score",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_name_email_correlation_score"
+          },
+          {
+            "name": "sender_email_address",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_email_address"
+          },
+          {
+            "name": "has_4_ACH_count_in_24h_per_user",
+            "typeIndex": 2,
+            "defaultDfeName": "has_4_ACH_count_in_24h_per_user",
+            "tag": 33
+          },
+          {
+            "name": "money_transfer_amount_round_to_10",
+            "typeIndex": 2,
+            "defaultDfeName": "money_transfer_amount_round_to_10",
+            "tag": 33
+          },
+          {
+            "name": "number_of_wire_user_per_receiver_in_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "number_of_wire_user_per_receiver_in_24h",
+            "tag": 33
+          },
+          {
+            "name": "transaction_id",
+            "typeIndex": 2,
+            "defaultDfeName": "transaction_id"
+          },
+          {
+            "name": "profession",
+            "typeIndex": 2,
+            "defaultDfeName": "profession"
+          },
+          {
+            "name": "work_phone_verified",
+            "typeIndex": 2,
+            "defaultDfeName": "work_phone_verified"
+          },
+          {
+            "name": "socure_sigma_score_v3",
+            "typeIndex": 2,
+            "defaultDfeName": "socure_sigma_score_v3"
+          },
+          {
+            "name": "event_type",
+            "typeIndex": 2,
+            "defaultDfeName": "event_type",
+            "tag": 5
+          },
+          {
+            "name": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+            "typeIndex": 2,
+            "defaultDfeName": "has_3_number_of_senders_per_P2P_receiver_email_48h",
+            "tag": 33
+          },
+          {
+            "name": "withdrawal_date",
+            "typeIndex": 2,
+            "defaultDfeName": "withdrawal_date"
+          },
+          {
+            "name": "deposit_id",
+            "typeIndex": 2,
+            "defaultDfeName": "deposit_id"
+          },
+          {
+            "name": "sender_account_open_date",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_account_open_date"
+          },
+          {
+            "name": "salary",
+            "typeIndex": 2,
+            "defaultDfeName": "salary"
+          },
+          {
+            "name": "legacy_fraud_type",
+            "typeIndex": 2,
+            "defaultDfeName": "legacy_fraud_type"
+          },
+          {
+            "name": "payment_time",
+            "typeIndex": 2,
+            "defaultDfeName": "payment_time"
+          },
+          {
+            "name": "business_unit",
+            "typeIndex": 2,
+            "defaultDfeName": "business_unit"
+          },
+          {
+            "name": "receiver_address_line1",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_address_line1"
+          },
+          {
+            "name": "account_open_date",
+            "typeIndex": 2,
+            "defaultDfeName": "account_open_date"
+          },
+          {
+            "name": "ssn_tax_number",
+            "typeIndex": 2,
+            "defaultDfeName": "ssn_tax_number"
+          },
+          {
+            "name": "user_type",
+            "typeIndex": 2,
+            "defaultDfeName": "user_type"
+          },
+          {
+            "name": "drivers_license_number",
+            "typeIndex": 2,
+            "defaultDfeName": "drivers_license_number"
+          },
+          {
+            "name": "mailing_address_state_code",
+            "typeIndex": 2,
+            "defaultDfeName": "mailing_address_state_code"
+          },
+          {
+            "name": "receiving_acct_name",
+            "typeIndex": 2,
+            "defaultDfeName": "receiving_acct_name"
+          },
+          {
+            "name": "wire_status",
+            "typeIndex": 2,
+            "defaultDfeName": "wire_status"
+          },
+          {
+            "name": "receiver_account_id",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_account_id"
+          },
+          {
+            "name": "receiver_last_transfer_date",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_last_transfer_date"
+          },
+          {
+            "name": "num_of_withdraw_per_external_acct_num_24h",
+            "typeIndex": 2,
+            "defaultDfeName": "num_of_withdraw_per_external_acct_num_24h",
+            "tag": 33
+          },
+          {
+            "name": "sender_acct_addr",
+            "typeIndex": 2,
+            "defaultDfeName": "sender_acct_addr"
+          },
+          {
+            "name": "fee_amount",
+            "typeIndex": 2,
+            "defaultDfeName": "fee_amount"
+          },
+          {
+            "name": "receiver_customer_status",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_customer_status"
+          },
+          {
+            "name": "hist_seq",
+            "typeIndex": 2,
+            "defaultDfeName": "hist_seq"
+          },
+          {
+            "name": "count_password_changed_last_1_day",
+            "typeIndex": 2,
+            "defaultDfeName": "count_password_changed_last_1_day",
+            "tag": 33
+          },
+          {
+            "name": "check_num",
+            "typeIndex": 2,
+            "defaultDfeName": "check_num"
+          },
+          {
+            "name": "account_count_per_receiving_email",
+            "typeIndex": 2,
+            "defaultDfeName": "account_count_per_receiving_email",
+            "tag": 33
+          },
+          {
+            "name": "receiver_account_type",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_account_type"
+          },
+          {
+            "name": "avail_balance",
+            "typeIndex": 2,
+            "defaultDfeName": "avail_balance"
+          },
+          {
+            "name": "linked_routing_number",
+            "typeIndex": 2,
+            "defaultDfeName": "linked_routing_number"
+          },
+          {
+            "name": "customer_gender",
+            "typeIndex": 2,
+            "defaultDfeName": "customer_gender"
+          },
+          {
+            "name": "number_of_senders_per_P2P_receiver_email_48h",
+            "typeIndex": 2,
+            "defaultDfeName": "number_of_senders_per_P2P_receiver_email_48h",
+            "tag": 33
+          },
+          {
+            "name": "high_check_user_count_per_payer_acct_num_7day",
+            "typeIndex": 2,
+            "defaultDfeName": "high_check_user_count_per_payer_acct_num_7day",
+            "tag": 33
+          },
+          {
+            "name": "receiver_email",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_email"
+          },
+          {
+            "name": "unstructured_addenda_info_raw",
+            "typeIndex": 2,
+            "defaultDfeName": "unstructured_addenda_info_raw"
+          },
+          {
+            "name": "receiver_party_id",
+            "typeIndex": 2,
+            "defaultDfeName": "receiver_party_id"
+          },
+          {
+            "name": "tran_seq",
+            "typeIndex": 2,
+            "defaultDfeName": "tran_seq"
+          },
+          {
+            "name": "account_type",
+            "typeIndex": 2,
+            "defaultDfeName": "account_type"
+          },
+          {
+            "name": "is_bin_socure_email_risk_score_ls_0p3",
+            "typeIndex": 2,
+            "defaultDfeName": "is_bin_socure_email_risk_score_ls_0p3",
+            "tag": 33
+          },
+          {
+            "name": "mobile_phone_country_prefix",
+            "typeIndex": 2,
+            "defaultDfeName": "mobile_phone_country_prefix"
+          },
+          {
+            "name": "primary_email_addr_canonical",
+            "typeIndex": 2,
+            "defaultDfeName": "primary_email_addr_canonical"
+          },
+          {
+            "name": "deceased",
+            "typeIndex": 2,
+            "defaultDfeName": "deceased"
+          }
+        ]
+      },
+      "externalLogFormat": 1
+    }
+  }
+}
